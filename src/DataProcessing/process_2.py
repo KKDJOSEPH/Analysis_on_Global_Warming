@@ -1,6 +1,7 @@
 import pandas as pd
 def process2(df2 = pd.read_csv("Data/OriginalData/mitigation_curves_2.0C_191203_data.csv")):
 	'''
+	@Author: Haoyang Ding
 	This function takes a data frame file and returns a dataframe 
 	with migitation values from 2000-2026 for maximum +2 Degrees 
 	warming.

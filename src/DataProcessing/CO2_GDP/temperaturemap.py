@@ -22,6 +22,7 @@ df = pd.read_csv(datafile, names=['country', 'code', 'year', 'temperature'], ski
 
 def get_figure(year: int):
     """
+    @Author: Haoyang Ding
     create bokeh figure object
     :param year: year
     :return: figure
@@ -71,6 +72,7 @@ def get_figure(year: int):
 
 def save_figure(year: int, filename: str):
     """
+    @Author: Haoyang Ding
     save figure to filename
     :param year: int
     :param filename: str
@@ -82,6 +84,7 @@ def save_figure(year: int, filename: str):
 
 def show_figure(year: int):
     """
+    @Author: Haoyang Ding
     show figure in ipython
     :param year: int
     :return: void
@@ -93,6 +96,7 @@ def show_figure(year: int):
 
 def generate_gif(plots_directory: str, file_path: str, start: int, end: int, step: int = 1, fps: int = 5):
     """
+    @Author: Haoyang Ding
     geterate gif from plots
     :param plots_directory: str path
     :param file_path: str path
@@ -118,6 +122,7 @@ def generate_gif(plots_directory: str, file_path: str, start: int, end: int, ste
 
 def show_gif(file_path):
     """
+    @Author: Haoyang Ding
     show gif in ipython
     :param file_path: gif file path
     :return:
