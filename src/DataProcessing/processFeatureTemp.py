@@ -1,5 +1,6 @@
 def processFeatures(feature, observed):
     """
+    @Author: Haoyang Ding
     This function takes two data frames files and merge two datasets together
     :param
         Input: feature-- > The dataframe of each of the feature info,  reading it from the CSV final_metric

@@ -2,6 +2,7 @@ import pandas as pd
 def plot_2_animation(df_historical_data = pd.read_csv("Data/VisualizationData/Historical_CO2_Emissions_Data.csv"),\
 	df2 = pd.read_csv("Data/VisualizationData/2_Mitigation_Curves_Data.csv")):
 	'''
+	@Author: Haoyang Ding
 	This function plots the historical CO2 Emissions from 1900-2019 &
 	plots the mitigation curves from 2000-2026 to meet +2C degrees 
 	in an animation. The animation is also saved as a GIF.
@@ -54,6 +55,7 @@ def plot_2_animation(df_historical_data = pd.read_csv("Data/VisualizationData/Hi
 def plot_2_2020(df_historical_data = pd.read_csv("Data/VisualizationData/Historical_CO2_Emissions_Data.csv"),\
 	df2 = pd.read_csv("Data/VisualizationData/2_Mitigation_Curves_Data.csv")):
 	'''
+	@Author: Haoyang Ding
 	This function plots the historical CO2 Emissions from 1900-2019 &
 	plots the mitigation curve starting at the beginning of 2020 to 
 	meet +2C degrees.

@@ -1,6 +1,7 @@
 import pandas as pd
 def process1_5():
 	'''
+	@Author: Haoyang Ding
 	This function takes a data frame file and returns a dataframe of 
 	historical carbon emissions data and a dataframe with migitation 
 	values from 2000-2026 for maximum +1.5 Degrees warming.
