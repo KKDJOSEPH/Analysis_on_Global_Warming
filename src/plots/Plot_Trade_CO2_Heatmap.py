@@ -7,6 +7,7 @@ from holoviews.ipython.magics import OptsMagic
 
 def plot_TradeCO2_heatmap(tradedata, feature):
     '''
+    @Author: Haoyang Ding
     Plot the heat map
     :param tradedata: a processed data frame
     :param feature: the vairable for the plot

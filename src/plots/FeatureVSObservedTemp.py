@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 
 def plot_feature_VS_Observed(feature, df, linecolor):
     """
+    @Author: Haoyang Ding
     This function plots the 1880-2004 time series plots for the selected feature and observed earth
     :param
         Input: df -- > The dataframe of each of the features,processed before
